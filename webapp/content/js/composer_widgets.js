@@ -1217,6 +1217,8 @@ function createOptionsMenu() {
     items: [
       menuRadioItem("yUnit", "Standard", "yUnitSystem", "si"),
       menuRadioItem("yUnit", "Binary", "yUnitSystem", "binary"),
+      menuRadioItem("yUnit", "Seconds", "yUnitSystem", "sec"),
+      menuRadioItem("yUnit", "Milliseconds", "yUnitSystem", "msec"),
       menuRadioItem("yUnit", "None", "yUnitSystem", "none")
 
     ]
